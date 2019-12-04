@@ -107,7 +107,7 @@ describe('Data CRUD routes tests', function () {
                 }
                 var resp = res.body;
                 var update = {
-                    slug: 'name update'
+                    slug: 'name updatee'
                 }
                 request(app)
                     .put('/api/datas/' + resp.data._id)
